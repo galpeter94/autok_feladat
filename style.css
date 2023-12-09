@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    display: inline-block;
+    background-color: green;
+    width: 100%;
+    height: 50px;
+  }
+
+.fejlec li {
+    display: inline;
+  }
+
+.fejlec a {
+    color: white;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+h1 {
+    color: green;
+}
+
+ol {
+    max-width: 60%;
+    padding-left: 2rem;
+}
+
+ol li {
+    text-align: justify;
+    padding: .5rem;
+    font-size: larger;
+}
