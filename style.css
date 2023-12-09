@@ -42,6 +42,7 @@ ol li {
     padding: .5rem;
     font-size: larger;
     float: left;
+    
 }
 
 .kepek{
@@ -64,3 +65,10 @@ ol li {
     grid-template-columns: 2fr 1fr;
 }
 
+footer {
+    clear: both;
+    position: relative;
+    height: 20px;
+    text-align: center;
+    color: green;
+}
