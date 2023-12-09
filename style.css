@@ -41,7 +41,7 @@ h2 {
 .erdekessegek {
     padding-top: 10px;
     padding-left: 20px;
-    width: 70%;
+    width: 65%;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-areas: "b f";
@@ -61,7 +61,7 @@ p {
 
 .ford{
     grid-area: f;
-    max-width: 370px;
+    max-width: fit-content;
     float: left;
     padding: .4rem;
     border: 1.3px solid lightgray;
@@ -70,8 +70,7 @@ p {
 
 .benz{
     grid-area: b;
-    max-width: 370px;
-    max-width: auto;
+    max-width: fit-content;
     padding: .4rem;
     border: 1.3px solid lightgray;
     border-radius: 10px;
