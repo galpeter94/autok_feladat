@@ -30,11 +30,35 @@ h1 {
 
 ol {
     max-width: 60%;
-    padding-left: 2rem;
+    padding-left: 3rem;
+    grid-area: o;
 }
 
 ol li {
     text-align: justify;
     padding: .5rem;
     font-size: larger;
+    float: left;
 }
+
+.kepek{
+    padding-right: 3rem;
+    display: grid;
+    grid-area: i;
+    justify-content: right;
+}
+
+.kepek img{
+    width: 350px;
+    height: 100%;
+    padding: .4rem;
+    border: 1.3px solid beige;
+    border-radius: 10px;
+
+}
+
+.grid {
+    grid-template-columns: 2fr 1fr;
+    display: ;
+}
+
