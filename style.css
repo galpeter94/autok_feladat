@@ -93,5 +93,11 @@ p {
 
 }
 
-
+footer {
+    clear: both;
+    position: relative;
+    height: 20px;
+    text-align: center;
+    color: green;
+}
 
